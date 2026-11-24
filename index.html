@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giriprasath R | Portfolio</title>
+  <meta name="description" content="Portfolio of Giriprasath R - CSE (IoT & Cyber Security) student" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Animated background blobs -->
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+  <div class="blob blob3"></div>
+  <div class="scroll-bar" id="scrollBar"></div>
+
+  <!-- NAVBAR -->
+  <header class="nav">
+    <a href="#home" class="logo">G<span>R</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#hackathons">Hackathons</a>
+      <a href="#contact" class="nav-btn">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="hello">Hello, I'm</p>
+      <h1>Giriprasath <span class="grad">R</span></h1>
+      <h2>I'm into <span id="typing" class="grad"></span><span class="cursor">|</span></h2>
+      <p class="hero-desc">
+        CSE (Internet of Things &amp; Cyber Security including Blockchain Technology) student
+        who loves building smart, real-world projects.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn ghost">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-photo">
+      <div class="photo-ring">
+        <!-- Put your photo in the same folder and name it photo.jpg -->
+        <img src="photo.jpg" alt="Giriprasath R" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+        <div class="photo-fallback">GR</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section reveal">
+    <h3 class="title">About <span class="grad">Me</span></h3>
+    <div class="glass about-card">
+      <p>
+        I'm a motivated and disciplined student with basic knowledge in programming,
+        web technologies and problem-solving. I have good communication skills,
+        teamwork ability and a positive attitude. I'm eager to learn new technologies
+        and apply my technical skills in real-world projects and internships.
+      </p>
+      <p class="objective">
+        <strong>Career Objective:</strong> To obtain an opportunity in the IT field where I can
+        develop my skills in programming, IoT and problem-solving, while contributing
+        effectively to team projects.
+      </p>
+      <div class="stats">
+        <div><b>2</b><span>Projects</span></div>
+        <div><b>2</b><span>Hackathons</span></div>
+        <div><b>2029</b><span>Graduating</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section reveal">
+    <h3 class="title">My <span class="grad">Education</span></h3>
+    <div class="timeline">
+      <div class="t-item">
+        <div class="t-dot"></div>
+        <div class="glass t-card">
+          <span class="year">2025 - 2029</span>
+          <h4>Bachelor of Engineering</h4>
+          <p>CSE (Internet of Things) | SNS College of Technology</p>
+        </div>
+      </div>
+      <div class="t-item">
+        <div class="t-dot"></div>
+        <div class="glass t-card">
+          <span class="year">2024 - 2025</span>
+          <h4>Higher Secondary Certificate</h4>
+          <p>P.A.C.M Higher Secondary School</p>
+          <p class="muted">SSLC: 84.8% &nbsp;|&nbsp; HSC: 83.83%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section reveal">
+    <h3 class="title">My <span class="grad">Skills</span></h3>
+    <div class="skills-grid">
+      <div class="glass">
+        <h4>Tech Skills</h4>
+        <div class="bar"><label>Python</label><div class="track"><div class="fill" data-width="75%"></div></div></div>
+        <div class="bar"><label>C++</label><div class="track"><div class="fill" data-width="60%"></div></div></div>
+        <div class="bar"><label>JavaScript</label><div class="track"><div class="fill" data-width="60%"></div></div></div>
+        <div class="bar"><label>Web Designing</label><div class="track"><div class="fill" data-width="70%"></div></div></div>
+        <div class="bar"><label>Problem Solving</label><div class="track"><div class="fill" data-width="75%"></div></div></div>
+      </div>
+      <div class="glass">
+        <h4>Soft Skills</h4>
+        <div class="chips">
+          <span>Teamwork</span><span>Time Management</span><span>Work Ethics &amp; Discipline</span>
+          <span>Knowledgeable Thinking</span><span>Adaptability</span><span>Positive Attitude</span>
+        </div>
+        <h4 style="margin-top:28px">Languages</h4>
+        <div class="chips">
+          <span>English (Read, Write &amp; Speak)</span><span>Tamil (Fluent / Native)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section reveal">
+    <h3 class="title">My <span class="grad">Projects</span></h3>
+    <div class="cards">
+      <article class="glass card tilt">
+        <div class="icon">📱</div>
+        <h4>Smart Real-Time Monitoring &amp; Inspection Mobile App <small>(SIH)</small></h4>
+        <p>An AI-powered mobile app for real-time field monitoring, inspection and project verification. Integrates GPS, facial verification, CCTV analysis and automated alerts to improve transparency and accountability.</p>
+        <div class="tags"><span>Flutter</span><span>React</span><span>Python (FastAPI)</span><span>Supabase</span><span>YOLO</span><span>OpenStreetMap</span></div>
+      </article>
+      <article class="glass card tilt">
+        <div class="icon">💰</div>
+        <h4>AI-Based Financial Management System</h4>
+        <p>An AI-based system to track expenses, analyze spending patterns, save money and support better financial decision-making.</p>
+        <div class="tags"><span>Python</span><span>Data Analysis</span></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- HACKATHONS -->
+  <section id="hackathons" class="section reveal">
+    <h3 class="title">My <span class="grad">Hackathons</span></h3>
+    <div class="cards">
+      <article class="glass card tilt">
+        <div class="icon">🏆</div>
+        <h4>ITECH Summit'26 – PSG iTech College</h4>
+        <p>Built an AI-based image detection system using machine learning to accurately identify and classify images. Implemented data preprocessing, model training and evaluation to improve prediction accuracy and real-time performance.</p>
+      </article>
+      <article class="glass card tilt">
+        <div class="icon">🚗</div>
+        <h4>Asthra'26 – Karpagam College of Technology</h4>
+        <p>Developed a CCTV-based motion detection system for smart car parking allocation using machine learning. Enabled real-time vehicle detection, space monitoring and efficient parking management to optimize usage and reduce congestion.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section reveal">
+    <h3 class="title">Get In <span class="grad">Touch</span></h3>
+    <div class="glass contact-card">
+      <p>I'm open to internships and new opportunities. Let's build something great together!</p>
+      <a class="btn primary big" href="mailto:giriprasath237@gmail.com">✉ giriprasath237@gmail.com</a>
+      <p class="muted">📍 Coimbatore, Tamil Nadu</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Giriprasath R. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
