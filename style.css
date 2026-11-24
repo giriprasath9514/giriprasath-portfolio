@@ -203,7 +203,7 @@ body {
 .tilt { transition: transform 0.15s ease-out, border-color 0.4s, box-shadow 0.4s; transform-style: preserve-3d; }
 
 /* ---------- CONTACT ---------- */
-.contact-card { text-align: center; width:100%; max-width: 360px; margin: 0 auto; padding: 18px; box-sizing: border-box; border-radius: 16px; }
+.contact-card { text-align: center; width:100%; max-width: 360px; margin: 0 auto; }
 .contact-card p:first-child { color: var(--muted); font-size: 14px; line-height: 1.6; overflow-wrap: anywhere;}
 
 footer { text-align: center; padding: 30px; color: var(--muted); border-top: 1px solid var(--border); }
